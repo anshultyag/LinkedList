@@ -45,5 +45,10 @@ public class LinkedListProblem {
         System.out.println("Delete Element");
         ListOperations.deleteDataAtGivenNode();
         System.out.println("\n===================");
+
+        //Sort linked list
+        System.out.println("Sort List");
+        ListOperations.sortList();
+        System.out.println("\n===================");
     }
 }

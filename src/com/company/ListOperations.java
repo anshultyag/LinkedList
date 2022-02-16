@@ -1,7 +1,6 @@
 package com.company;
 
-public class ListOperations
-{
+public class ListOperations {
     //add data at head
     public static void addData() {
         LinkedList list = new LinkedList();
@@ -82,5 +81,19 @@ public class ListOperations
         System.out.println("After");
         list.print();
     }
-}
 
+    //sort operation
+    public static void sortList() {
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.insertNode(list.head.next, 40);
+        System.out.println("Before");
+        list.print();
+        System.out.println("");
+        list.sort();
+        System.out.println("After");
+        list.print();
+    }
+}
