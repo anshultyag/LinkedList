@@ -20,5 +20,14 @@ public class ListOperations
         list.print();
     }
 
+    //delete first element of list
+    public static void deleteFirstData() {
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.pop();
+        list.print();
+    }
 }
 

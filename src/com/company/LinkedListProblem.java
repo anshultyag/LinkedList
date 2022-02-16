@@ -15,5 +15,10 @@ public class LinkedListProblem {
         System.out.println("Append Nodes");
         ListOperations.appendData();
         System.out.println("\n===================");
+
+        //Delete head data in linked list
+        System.out.println("Delete First Node");
+        ListOperations.deleteFirstData();
+        System.out.println("\n===================");
     }
 }
