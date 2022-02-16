@@ -40,6 +40,7 @@ public class ListOperations
         list.print();
     }
 
+    //insert element
     public static void insertData() {
         LinkedList list = new LinkedList();
         list.push(70);
@@ -47,5 +48,25 @@ public class ListOperations
         list.insertNode(list.head, 30);
         list.print();
     }
+
+    //find node by value
+    public static void findNodeByValue() {
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.findNode(30);
+    }
+
+    //insert data at given node
+    public static void insertDataAtGivenNode() {
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.insertNode(list.head.next, 40);
+        list.print();
+    }
+
 }
 

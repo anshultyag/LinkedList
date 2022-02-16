@@ -30,5 +30,11 @@ public class LinkedListProblem {
         System.out.println("Insert Nodes");
         ListOperations.insertData();
         System.out.println("\n===================");
+
+        //Find Data by value in linked list
+        System.out.println("Find Node By Value");
+        ListOperations.findNodeByValue();
+        System.out.println("===================");
+
     }
 }
