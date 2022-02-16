@@ -10,5 +10,10 @@ public class LinkedListProblem {
         System.out.println("Add Nodes");
         ListOperations.addData();
         System.out.println("\n===================");
+
+        //Add Data at tail in linked list
+        System.out.println("Append Nodes");
+        ListOperations.appendData();
+        System.out.println("\n===================");
     }
 }

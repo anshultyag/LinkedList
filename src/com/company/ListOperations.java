@@ -11,6 +11,14 @@ public class ListOperations
         list.print();
     }
 
+    //add data at tail
+    public static void appendData() {
+        LinkedList list = new LinkedList();
+        list.append(56);
+        list.append(30);
+        list.append(70);
+        list.print();
+    }
 
 }
 
