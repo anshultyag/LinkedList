@@ -36,5 +36,14 @@ public class LinkedListProblem {
         ListOperations.findNodeByValue();
         System.out.println("===================");
 
+        //Insert Data at given node in linked list
+        System.out.println("Insert Element");
+        ListOperations.insertDataAtGivenNode();
+        System.out.println("\n===================");
+
+        //Delete Data at given node in linked list
+        System.out.println("Delete Element");
+        ListOperations.deleteDataAtGivenNode();
+        System.out.println("\n===================");
     }
 }

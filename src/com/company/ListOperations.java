@@ -68,5 +68,19 @@ public class ListOperations
         list.print();
     }
 
+    //delete data from given node
+    public static void deleteDataAtGivenNode() {
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.insertNode(list.head.next, 40);
+        System.out.println("Before");
+        list.print();
+        System.out.println("");
+        list.deleteANode(40);
+        System.out.println("After");
+        list.print();
+    }
 }
 
