@@ -20,5 +20,10 @@ public class LinkedListProblem {
         System.out.println("Delete First Node");
         ListOperations.deleteFirstData();
         System.out.println("\n===================");
+
+        //delete tail data in linked list
+        System.out.println("Delete Last Node");
+        ListOperations.deleteLastData();
+        System.out.println("\n===================");
     }
 }

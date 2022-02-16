@@ -29,5 +29,15 @@ public class ListOperations
         list.pop();
         list.print();
     }
+
+    //delete last element of list
+    public static void deleteLastData() {
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.popLast();
+        list.print();
+    }
 }
 
