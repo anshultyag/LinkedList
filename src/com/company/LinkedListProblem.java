@@ -25,5 +25,10 @@ public class LinkedListProblem {
         System.out.println("Delete Last Node");
         ListOperations.deleteLastData();
         System.out.println("\n===================");
+
+        //Add Data at middle in linked list
+        System.out.println("Insert Nodes");
+        ListOperations.insertData();
+        System.out.println("\n===================");
     }
 }

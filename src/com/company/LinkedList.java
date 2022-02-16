@@ -1,7 +1,7 @@
 package com.company;
 
 public class LinkedList {
-    Node head;
+   Node head;
 
     //Node Class
     class Node {
@@ -59,9 +59,20 @@ public class LinkedList {
         }
     }
 
+    //Add Data at middle
+    public void insertNode(Node prev_node, int newNode) {
+        if (prev_node == null){
+            System.out.println("The given previous node cannot be null");
+            return;
+        }
+        Node new_Node = new Node(newNode);
+        new_Node.next = prev_node.next;
+        prev_node.next = new_Node;
+    }
+
     public void print() {
         Node currNode = head;
-        while (currNode.next != null) {
+        while (currNode != null) {
             System.out.print(currNode.data + " -> ");
             currNode = currNode.next;
         }
